@@ -4,6 +4,4 @@ $(function() {
     
     $('body').addClass('container');
 
-    $('table').replaceWith('<div>'+ $(this).text() + '</div>');
-
 });
