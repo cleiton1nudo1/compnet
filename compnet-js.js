@@ -4,10 +4,10 @@ $(function() {
     
     $('body').addClass('container');
 
-    $('table').replaceWith('div'+ $(this).text() + 'div');
+    $('table').replaceWith('div'+ $(this).text() + '/div');
 
-    $('tr').replaceWith('div'+ $(this).text() + 'div');
+    $('tr').replaceWith('div'+ $(this).text() + '/div');
 
-    $('td').replaceWith('div'+ $(this).text() + 'div');
+    $('td').replaceWith('div'+ $(this).text() + '/div');
 
 });
